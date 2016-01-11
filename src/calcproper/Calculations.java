@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package calcProper;
 
 /**
- *
- * @author Aigars
+ * @author Aigars Ivaņenko, EDP1
  */
+
+/**
+ * Ši klase satur nepieciešamās metodes, lai veiktu vienkāršas aritmētiskas darbības
+ * starp diviem reāliem skaitļiem un atgrieztu rezultātu
+ **/
 public class Calculations {
     double num1;
     double num2;
@@ -75,7 +74,5 @@ public class Calculations {
         if (this.divGood)
         return this.div;
         else return 0;
-    }
-    
-       
+    }      
 }
