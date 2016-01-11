@@ -19,7 +19,7 @@ public class CalcProper{
     public static void main(String[] args) {
         // TODO code application logic here   
         int atkartot;
-        do{
+        do{//izpildis zemak esoso kodu, kamer sk atkartot bus 1
             Scanner kbinput = new Scanner(System.in);
             System.out.println("Ievadiet pirmo skaitli:");
             double a = kbinput.nextDouble();        
@@ -29,7 +29,7 @@ public class CalcProper{
 
             System.out.println("Jūsu ievadītie skaitļi:");
             System.out.println(a+" un "+b);
-
+            //izvelne
             System.out.println("Izvēlieties darbību: 1=Saskaitīt, 2=Atņemt, 3=Reizināt, 4=Dalīt");
             int choice = kbinput.nextInt();
             
@@ -69,8 +69,8 @@ public class CalcProper{
             } 
 
             System.out.println("vai velaties atkartot? 1 = Jā/ cits skaitlis = Nē");
-            atkartot=kbinput.nextInt();       
-        }while (atkartot==1);
+            atkartot=kbinput.nextInt(); //sk atkartot ievade      
+        }while (atkartot==1);//do cikla nosacijums
        
     }
 }
