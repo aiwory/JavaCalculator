@@ -32,11 +32,12 @@ public class CalcProper{
 
             System.out.println("Izvēlieties darbību: 1=Saskaitīt, 2=Atņemt, 3=Reizināt, 4=Dalīt");
             int choice = kbinput.nextInt();
-
+            
+            //Izveidots klases objekts, kuram piešķir abus skaitļus
             Calculations operacija;
             operacija = new Calculations(a,b);
-            // operacija.setNum1(a);
-            // operacija.setNum2(b);
+            // operacija.setNum1(a);//Tikai, ja vajag uzstādīt skaitli atsevišķi
+            // operacija.setNum2(b);//^
 
             switch(choice){
                 case 1:
